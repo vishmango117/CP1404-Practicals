@@ -1,3 +1,5 @@
+#CP1404 Programming II W4 Practical
+
 
 def get_income_and_total(months):
     income = []
