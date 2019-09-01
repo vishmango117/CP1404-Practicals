@@ -13,7 +13,7 @@ def main():
     flag = True
     while flag:
         option=input("Add Person.?")
-        if (option == "y" or option == "Y"):
+        if(option == "y" or option == "Y"):
             person_add(userlist)
         else:
             flag = False
