@@ -8,7 +8,6 @@ Modified from popup_demo, 11/07/2016
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.button import Button
-from kivy.properties import StringProperty
 
 
 class DynamicWidgetsApp(App):
