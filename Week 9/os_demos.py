@@ -12,8 +12,6 @@ def main():
         print("Starting directory is: {}".format(os.getcwd()))
 
         # Change to desired directory
-        os.chdir('Lyrics/Christmas')
-
         # Print a list of all files in current directory
         print("Files in {}:\n{}\n".format(os.getcwd(), os.listdir('.')))
         
@@ -37,7 +35,7 @@ def main():
         os.rename("Lyrics", "new_Lyrics")
 
         #     # Option 2: move file to new place, with new name
-        shutil.copy("new_Lyrics", 'temp/' + new_name)
+        shutil.move("new_Lyrics/Christmas", 'new_Lyrics/temp/' + "Christmas")
     except:
         pass
 
@@ -60,5 +58,5 @@ def demo_walk():
         # TODO: add a loop to rename the files
 
 
-main()
-# demo_walk()
+#main()
+demo_walk()
